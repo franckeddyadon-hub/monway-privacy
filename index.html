@@ -45,7 +45,7 @@
 
 <header>
   <h1>Politique de confidentialité</h1>
-  <p class="maj">Application MonWay · Dernière mise à jour : 6 août 2026</p>
+  <p class="maj">Application MonWay · Dernière mise à jour : 30 septembre 2026</p>
 </header>
 
 <p>MonWay est une plateforme de gestion scolaire destinée aux établissements
@@ -112,6 +112,19 @@ lors de votre inscription, et celles produites par votre scolarité.</p>
     <td>Suivre l'assiduité et déterminer l'éligibilité aux examens</td>
   </tr>
   <tr>
+    <td><strong>Santé</strong></td>
+    <td>Uniquement ce que contient un justificatif d'absence que vous
+        choisissez de déposer, par exemple un certificat d'arrêt médical</td>
+    <td>Permettre à l'établissement de justifier une absence. Seules les
+        personnes chargées de valider les justificatifs y ont accès.</td>
+  </tr>
+  <tr>
+    <td><strong>Demandes d'assistance</strong></td>
+    <td>Le message que vous adressez au support, l'écran concerné, et
+        l'état technique de votre compte au moment de la demande</td>
+    <td>Comprendre et résoudre votre difficulté</td>
+  </tr>
+  <tr>
     <td><strong>Scolarité financière</strong></td>
     <td>Montants dus, échéances, versements, reçus</td>
     <td>Vous informer de votre situation et vous adresser vos reçus</td>
@@ -131,13 +144,23 @@ lors de votre inscription, et celles produites par votre scolarité.</p>
     <td>Date de dernière connexion, identifiant de notification</td>
     <td>Sécuriser l'accès et vous envoyer les notifications</td>
   </tr>
+  <tr>
+    <td><strong>Rapports de plantage</strong></td>
+    <td>En cas de plantage de l'application : modèle d'appareil, version du
+        système, état technique de l'application au moment de l'erreur</td>
+    <td>Détecter et corriger les défauts. Ces rapports ne servent ni à
+        la publicité ni à analyser votre comportement.</td>
+  </tr>
 </table>
 
 <h3>Ce que MonWay ne collecte pas</h3>
 <ul>
   <li>Aucune donnée de <strong>localisation</strong>.</li>
-  <li>Aucun accès à vos <strong>contacts</strong>, <strong>photos</strong>
-      personnelles, <strong>micro</strong> ou <strong>messages</strong>.</li>
+  <li>Aucun accès à vos <strong>contacts</strong>, à votre
+      <strong>micro</strong> ou à vos <strong>SMS</strong>. L'application
+      ne lit dans vos <strong>photos et fichiers</strong> que le document
+      que vous choisissez vous-même de déposer, par exemple un justificatif
+      d'absence.</li>
   <li>Aucune <strong>coordonnée bancaire</strong> : les paiements sont
       encaissés directement par l'établissement, hors de l'application.
       MonWay n'affiche que le montant enregistré par la comptabilité.</li>
@@ -193,6 +216,19 @@ utiliser ces données à ses propres fins.</p>
 <p>Les reçus et documents sont adressés par courrier électronique via un
 service d'acheminement, qui traite uniquement l'adresse du destinataire et le
 contenu du message.</p>
+
+<p>Les rapports de plantage sont traités par <strong>Firebase
+Crashlytics</strong>, service de Google, dans les mêmes conditions.</p>
+
+<p>Certaines fonctions d'aide s'appuient sur un service d'intelligence
+artificielle, fourni par <strong>Anthropic</strong>. C'est le cas du tri des
+demandes d'assistance : le service reçoit le contenu de la demande et l'état
+technique du compte, afin de préparer la réponse de l'équipe de support.
+Ces fonctions <strong>préparent, elles ne décident rien</strong> : chaque
+décision reste prise par une personne de l'établissement ou du support.
+Ce prestataire traite les données pour notre compte et, selon ses conditions
+commerciales, ne les utilise pas pour entraîner ses modèles. Ses serveurs
+peuvent être situés hors de l'Union européenne, notamment aux États-Unis.</p>
 
 <h2>5 · Combien de temps les données sont conservées</h2>
 
@@ -262,88 +298,16 @@ dans les meilleurs délais.</p>
 </ul>
 
 <p>L'application comporte une fonction de <strong>demande de suppression de
-compte</strong>, accessible depuis vos paramètres. La procédure complète, ce
-qui est effacé et ce qui est conservé, sont détaillés au
-<a href="#suppression">paragraphe 9</a>.</p>
+compte</strong>, accessible depuis vos paramètres. La demande est transmise à
+votre établissement, qui la traite dans le respect de ses obligations
+d'archivage.</p>
 
 <p>Adressez vos demandes à votre établissement, ou à l'éditeur si elles
 concernent le fonctionnement technique de la plateforme. Vous disposez
 également du droit d'introduire une réclamation auprès de l'autorité de
 protection des données de votre pays.</p>
 
-<h2 id="suppression">9 · Supprimer votre compte et vos données</h2>
-
-<div class="encadre">
-  <p>Cette section décrit la procédure de suppression du compte et des données
-  de l'application <strong>MonWay</strong>, éditée par Franck Adon EDDY.</p>
-</div>
-
-<h3>Comment faire la demande</h3>
-
-<p>Deux moyens, au choix :</p>
-
-<ul>
-  <li><strong>Depuis l'application</strong> — ouvrez vos paramètres, puis
-  « Demander la suppression de mon compte ». Votre demande est transmise à
-  votre établissement.</li>
-  <li><strong>Par courrier électronique</strong> — si vous n'avez plus accès à
-  l'application, écrivez à
-  <a href="mailto:franckeddyadon@gmail.com">franckeddyadon@gmail.com</a> en
-  précisant votre nom complet, votre établissement et l'adresse e-mail
-  associée à votre compte. Nous vous demanderons une pièce justificative
-  d'identité afin de nous assurer que la demande émane bien de vous.</li>
-</ul>
-
-<h3>Ce qui est supprimé</h3>
-
-<ul>
-  <li>Votre <strong>compte d'accès</strong> : identifiant et mot de passe. Vous
-  ne pouvez plus vous connecter.</li>
-  <li>Vos <strong>coordonnées personnelles</strong> : adresse e-mail
-  personnelle, numéros de téléphone, ville.</li>
-  <li>Votre <strong>photographie</strong>, si vous en aviez déposé une.</li>
-  <li>Vos <strong>messages</strong> échangés avec l'administration.</li>
-  <li>Vos <strong>notifications</strong> et vos préférences d'affichage.</li>
-  <li>Vos <strong>récompenses</strong> et votre progression dans
-  l'application.</li>
-</ul>
-
-<h3>Ce qui est conservé, et pourquoi</h3>
-
-<div class="encadre">
-  <p><strong>Certaines données ne peuvent pas être effacées à votre demande.</strong>
-  Elles constituent les archives scolaires de votre établissement, qui a
-  l'obligation légale de les conserver.</p>
-</div>
-
-<ul>
-  <li>Vos <strong>résultats académiques</strong> : notes, moyennes, crédits,
-  bulletins. Ils prouvent votre parcours et vous seront nécessaires si vous
-  demandez un jour un relevé ou une attestation.</li>
-  <li>Vos <strong>relevés d'assiduité</strong>, rattachés à ces résultats.</li>
-  <li>Vos <strong>règlements de scolarité</strong> et les reçus émis, soumis
-  aux obligations comptables.</li>
-</ul>
-
-<p>Ces données restent sous la responsabilité de votre établissement. Leur
-durée de conservation relève de ses obligations d'archivage et de la
-réglementation applicable à l'enseignement supérieur.</p>
-
-<h3>Délais</h3>
-
-<ul>
-  <li><strong>Accusé de réception</strong> : sous 7 jours.</li>
-  <li><strong>Suppression effective</strong> : dans un délai maximal de
-  30 jours à compter de la vérification de votre identité.</li>
-  <li><strong>Sauvegardes</strong> : nos sauvegardes techniques sont conservées
-  14 jours. Vos données en disparaissent donc au plus tard 14 jours après la
-  suppression.</li>
-</ul>
-
-<p>Si vous estimez que votre demande n'a pas été traitée correctement, vous
-pouvez saisir l'autorité de protection des données de votre pays.</p>
-
-<h2>10 · Modifications</h2>
+<h2>9 · Modifications</h2>
 
 <p>Cette politique peut évoluer. Toute modification substantielle sera portée
 à votre connaissance dans l'application. La date de dernière mise à jour
@@ -352,15 +316,15 @@ figure en tête de ce document.</p>
 <div class="contact">
   <h3 style="margin-top:0">Nous contacter</h3>
   <p style="margin-bottom:6px"><strong>Éditeur de MonWay</strong><br>
-  Franck Adon EDDY<br>
-  <a href="mailto:franckeddyadon@gmail.com">franckeddyadon@gmail.com</a></p>
+  LANNOW SARLU (en cours d'immatriculation)<br>
+  <a href="mailto:contact@monway.ci">contact@monway.ci</a></p>
   <p style="font-size:14px;color:var(--encre3);margin-bottom:0">
   Pour toute question relative au contenu de votre dossier scolaire,
   adressez-vous en priorité à votre établissement.</p>
 </div>
 
 <footer>
-  <p style="margin:0">MonWay · Politique de confidentialité · Version du 6 août 2026</p>
+  <p style="margin:0">MonWay · Politique de confidentialité · Version du 30 septembre 2026</p>
 </footer>
 
 </div>
